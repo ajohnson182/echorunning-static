@@ -3,9 +3,17 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+header {
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial;
 }
 .text-muted {
   color: #777777;
@@ -738,4 +746,27 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.headline {
+  font-family: Arial;
+  font-size: 3.8em;
+  color: #FFF;
+}
+.intro-box {
+  background-color: rgba(20, 20, 20, 0.4);
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+.tellmemore {
+  background-color: #fed136;
+  border-radius: 8px;
+  color: #ffffff;
+}
+#mainnav {
+  background-color: rgba(20, 20, 20, 0.4);
+}
+.navbar-logo {
+  font-family: Arial;
+  font-size: 3em;
+  color: #FFF;
 }

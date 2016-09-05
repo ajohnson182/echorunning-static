@@ -2,10 +2,18 @@
 @import "mixins.less";
 
 // Global Components
+header {
+	-webkit-transition: background 1.5s linear;
+	-moz-transition: background 1.5s linear;
+	-o-transition: background 1.5s linear;
+	-ms-transition: background 1.5s linear;
+	transition: background 1.5s linear;
+}
 
 body {
 	overflow-x: hidden;
 	.body-font;
+	font-family: Arial;
 }
 
 .text-muted {
@@ -730,4 +738,32 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+.headline {
+    font-family: Arial;
+    font-size: 3.8em;
+    color: #FFF;
+}
+
+.intro-box {
+    background-color: rgba(20,20,20,.4);
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+.tellmemore {
+    background-color: @theme-primary;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+#mainnav {
+    background-color: rgba(20,20,20,.4);
+}
+
+.navbar-logo {
+    font-family: Arial;
+    font-size: 3em;
+    color: #FFF;
 }
